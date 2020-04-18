@@ -14,6 +14,7 @@ export const Permissions = {
   BodyFatPercentage: "BodyFatPercentage",
   BodyMass: "BodyMass",
   BodyMassIndex: "BodyMassIndex",
+  RestingHeartRate: "RestingHeartRate",
   BodyTemperature: "BodyTemperature",
   DateOfBirth: "DateOfBirth",
   Biotin: "Biotin",
