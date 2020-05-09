@@ -57,9 +57,9 @@
     }else if ([@"NikeFuel" isEqualToString: key]) {
         return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierNikeFuel];
     }else if ([@"Calcium" isEqualToString: key]) {
-            return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCalcium];
-     }else if ([@"DistanceSwimming" isEqualToString: key]) {
-        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierNikeFuel];
+              return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCalcium];
+    }else if ([@"Biotin" isEqualToString: key]) {
+             return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryBiotin];
     }
 
 //    if ([@"AppleExerciseTime" isEqualToString: key]) {
@@ -70,6 +70,7 @@
     if ([@"DietaryEnergy" isEqualToString: key]) {
         return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryEnergyConsumed];
     }
+
 
 
     // Vital Signs Identifiers
